@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="enc">
 <head>
   <meta charset="utf-8">
+  <title>Improving Accesibility Project</title>
 </head>
 <body>
   <div>
@@ -12,19 +13,22 @@
     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
     cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
     proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <img src="catimage.jpg">
-    <p>
-      - a list if things
-      - a list if things
-      - a list if things
-      - a list if things
-      - a list if things
-    </p>
-    <form action="#">
-      <h2>Contact me</h2>
-      <input type="email" name="email">
-      <button>lets go</button>
-    </form>
+    <img src="/assets/images/catimage.jfif" alt="picture of my ginger cat curled up on a red armchair">
+    <ul>
+        <li>a list if things</li>
+        <li>a list if things</li>
+        <li>a list if things</li>
+        <li>a list if things</li>
+        <li>a list if things</li>
+      </ul>       
+      <form action="#">
+        <fieldset>
+          <legend>Contact me</legend>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" autocomplete="email">
+          <button>lets go</button>
+        </fieldset>
+      </form>            
   </div>
 </body>
 </html>
